@@ -11,13 +11,13 @@ Pre-requisites: make sure you have Ruby 1.9.3 installed and watir-webdriver gem.
 2. Add receipts to waitrose_receipts.txt, each from new line.
 3. Add your data (including name, address, email, etc) to waitrose_userdata.txt in the following order:
 
-######First Name
-######Last Name
-######Street Address
-######Town
-######ZIP
-######Email
-######Phone
+* First Name
+* Last Name
+* Street Address
+* Town
+* ZIP
+* Email
+* Phone
 
 4. In waitrose_survey_batch.rb uncomment lines 166-174 by removing # in fron of each line. (in order to have the requests sent at last step).
 5. run "ruby waitrose_survey_batch.rb"
